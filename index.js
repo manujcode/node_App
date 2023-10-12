@@ -10,7 +10,7 @@
 const productRouter =require('./ROUTER/router.js')
  const userRouter =require('./ROUTER/user.js')
 
- 
+
 main().catch(err=> console.log(err));
 
 async function main(){
@@ -69,8 +69,11 @@ res.sendFile(path.resolve(__dirname,'build','index.html'))
 // server.get("/home", (req, res) => {
 //   //  res.json(data)
 //   // res.status(200).sendFile('/Users/manujgupta/Desktop/node-app/index.html')
-//   res.sendStatus(404);
+//   res.sendStatus(404);rguyruigrjghijr4hg
 // });
+
+
+
 server.listen(process.env.PORT, () => {
   console.log("server started");
 
