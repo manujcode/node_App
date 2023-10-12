@@ -2,7 +2,7 @@
 const fs = require("fs"); 
 // let index = fs.readFileSync("index.html", "utf-8");
 const path =require('path')
-let apis = fs.readFileSync(path.resolve(__dirname,"../public/data.json", "utf-8"));
+let apis = fs.readFileSync(path.resolve(__dirname,"../data.json", "utf-8"));
 let data = JSON.parse(apis);   
 let user =data.users
 exports.postProduct =(req, res) => {
