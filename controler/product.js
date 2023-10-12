@@ -5,9 +5,9 @@ const mongoose = require("mongoose");
 const model = require("../model/product.js");
 const Product = model.product;
 
-let apis = fs.readFileSync("./public/data.json", "utf-8");
-let data = JSON.parse(apis);
-data = data.product;
+// let apis = fs.readFileSync("./public/data.json", "utf-8");
+// let data = JSON.parse(apis);
+// data = data.product;
 //create
 exports.postProduct = async (req, res) => {
   try {
